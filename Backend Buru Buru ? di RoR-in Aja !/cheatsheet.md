@@ -27,3 +27,13 @@ Contoh : `rails g model buku`
 `rails g model <nama-model> [field[:type][:index] field[:type][:index]]`
 
 Contoh : `rails g model buku judul:string penerbit:string tahunTerbit:integer`
+
+## Migrasi database :
+
+`rails db:migrate`
+
+## Membuat Controller :
+
+`rails g controller <nama-controller>`
+
+Contoh : `rails g controller v1/buku`
